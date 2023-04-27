@@ -2,14 +2,41 @@
 <html>
     <head>
         <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <style>
+            .heading{
+                color: darkblue;
+                background-color: lightblue;
+                text-transform: uppercase;
+            }
+            #angular{
+                color:blue;
+            }
+            #controlSystem{
+                color: darkcyan;
+                background-color: rgb(230, 244, 230);
+            }
+            li{
+                margin: 20px;
+                list-style: circle;
+                padding: 5px;
+            }
+            *{
+                font-family: 'Roboto Slab', serif;
+            }
+        </style>
     </head>
     <body>
-        <h3>Professional Summery</h3>
+        <h3 class="heading">Career Objectives</h3>
+        <p>To work in an organisation where I can learn and grow my skills and help organisation growth</p>
+        <h3 class="heading">Professional Summery</h3>
         <ul>
-            <li>Having 1 year of experience in devoloping single page Web Application using Angular 8, HTML5, CSS3, Bootstrap 5,
+            <li>Having 1 year of experience in devoloping single page Web Application using <span id="angular">Angular 8</span>, HTML5, CSS3, Bootstrap 5,
                 Javascript, Typescript
             </li>
-            <li>Experience on working with version control system- GIT and GitHub</li>
+            <li id="controlSystem">Experience on working with version control system- GIT and GitHub</li>
             <li>Experience working with JIRA for user stories and bug tracking</li>
             <li>Strong Debugging and Troublshooting code experience using Chrome Developer Tool</li>
             <li>Working exposure on ID's like VS code and Notepad++</li>

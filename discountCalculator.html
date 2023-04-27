@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Discount Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Itim&display=swap"
+        rel="stylesheet">
+
+        <style>
+            Body{
+                background-color: #f2f2f2;
+                
+            }
+            p,label{
+                font-family: 'Itim', cursive;
+                color: cadetblue;
+                font-size: x-large;
+            }
+            h2{
+                color: cadetblue;
+                text-transform: uppercase;
+            }
+            input{
+                margin: 25px 150px 25px 125px;
+                border-radius: 50px;
+                width: 250px;
+                height: 25px;
+                
+            }
+            #discountPer{
+                margin-left: 40px;
+            }
+            button:hover{
+                background-color: burlywood;
+                
+            }
+            button{
+                border-radius: 20px;
+                padding:10px 50px 10px 50px;
+                font-size: x-large;
+                margin-bottom: 20px;
+                font-family:'Itim', cursive;
+                color: cadetblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Discount Calculator</h2>
+        <p>Enter the bill amount and discount in percentage</p>
+        <form>
+            <label>Bill Amount</label>
+            <input><br>
+            <label>Discount Percentage</label>
+            <input id="discountPer"><br>
+            <button type="=submit">Calculate</button><br>
+            <label>Total Discount Amount==</label>
+        </form>
+        
+    </body>
+</html>
